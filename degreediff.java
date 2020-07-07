@@ -58,12 +58,9 @@ final String gtid = "asong49";
 
   public static void main(String[] args) throws Exception {
 
-    /* TODO: Update variable below with your gtid */
-
     Configuration conf = new Configuration();
     Job job1 = Job.getInstance(conf, "Q4a1");
 
-    /* TODO: Needs to be implemented */
     job1.setJarByClass(Q4a.class);
     job1.setMapperClass(TokenizerMapper.class);
     job1.setReducerClass(IntSumReducer.class);
