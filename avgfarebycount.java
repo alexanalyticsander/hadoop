@@ -58,7 +58,6 @@ public class Q4b {
 
   public static void main(String[] args) throws Exception {
 
-    /* TODO: Needs to be implemented */
     Configuration conf = new Configuration();
     Job job = Job.getInstance(conf, "Q4b");
     job.setJarByClass(Q4b.class);
